@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+//Route::get('/', function () {
+//    return view('index');
+//});
+
+Route::get('/', 'WebController@index')->name('index');
+
+Route::post('/send-mail', 'WebController@sendMail')->name('sendMail');

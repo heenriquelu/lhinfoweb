@@ -492,7 +492,8 @@
                                 </div>
                             </div>
                             <div class="col-md-6 animate" data-animate="fadeInUp">
-                                <form id="ajax-contact" method="post" action="#">
+                                <form id="ajax-contact" method="post" action="{{route('sendMail')}}" autocomplete="off" >
+                                    @csrf
                                     <div class="input-field">
                                         <input type="text" class="form-control" name="name" id="name" required
                                                placeholder="Nome">
@@ -532,6 +533,7 @@
         </ul>
     </div>
 </div>
+
 
 
 <script src="js/jquery.js"></script>
