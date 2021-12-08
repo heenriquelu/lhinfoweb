@@ -86,7 +86,8 @@
                     <h1 class="welcome-title animate" data-animate="fadeInUp">FUTURO!</h1>
                     <p class="animate" data-animate="fadeInUp">Conosco você irá desvendar tudo o que de melhor a
                         tecnologia tem a oferecer, seja criando o seu proprio site intitucional, seu site de vendas
-                        (e-commerce), seu blog, e o que mais a sua imaginação permitir!</p>
+                        (e-commerce), sua landing page para lançamento do seu produto, seu blog, e o que mais a sua
+                        imaginação permitir!</p>
                     <div class="scroll-down next-section animate data-animate=" fadeInUp
                     ""><img src="images/mouse-scroll.png" alt=""><span>Role para baixo</span></div>
             </div>
@@ -315,18 +316,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--                            <div class="item animate" data-animate="fadeInUp">-->
-                            <!--                                <div class="portfolio-item">-->
-                            <!--                                    <div class="thumb">-->
-                            <!--                                        <img src="images/item-3.jpg" alt="">-->
-                            <!--                                    </div>-->
-                            <!--                                    <div class="thumb-inner animate" data-animate="fadeInUp">-->
-                            <!--                                        <h4>templatemo is the best</h4>-->
-                            <!--                                        <p>Please tell your friends about it. Templatemo is the best website to download-->
-                            <!--                                            free Bootstrap layouts.</p>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
+                            <div class="item animate" data-animate="fadeInUp">
+                                <div class="portfolio-item">
+                                    <div class="thumb">
+                                        <img src="images/brotherconstrutora_logo.png" alt="">
+                                    </div>
+                                    <div class="thumb-inner animate" data-animate="fadeInUp">
+                                        <h4>Construtora Brother's</h4>
+                                        <p>Veja a incrivel Landing Page criada para o lançamento dos empreendimentos de
+                                            nosso parceiro <a
+                                                href="http://brotherconstrutora.lhinfoweb.com/">clicando aqui</a></p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="item animate" data-animate="fadeInUp">
                                 <div class="portfolio-item">
                                     <div class="thumb">
@@ -351,18 +353,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--                            <div class="item animate" data-animate="fadeInUp">-->
-                            <!--                                <div class="portfolio-item">-->
-                            <!--                                    <div class="thumb">-->
-                            <!--                                        <img src="images/item-3.jpg" alt="">-->
-                            <!--                                    </div>-->
-                            <!--                                    <div class="thumb-inner animate" data-animate="fadeInUp">-->
-                            <!--                                        <h4>templatemo is the best</h4>-->
-                            <!--                                        <p>Please tell your friends about it. Templatemo is the best website to download-->
-                            <!--                                            free Bootstrap templates.</p>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
+                            <div class="item animate" data-animate="fadeInUp">
+                                <div class="portfolio-item">
+                                    <div class="thumb">
+                                        <img src="images/brotherconstrutora_logo.png" alt="">
+                                    </div>
+                                    <div class="thumb-inner animate" data-animate="fadeInUp">
+                                        <h4>Construtora Brother's</h4>
+                                        <p>Veja a incrivel Landing Page criada para o lançamento dos empreendimentos de
+                                            nosso parceiro <a
+                                                href="http://brotherconstrutora.lhinfoweb.com/">clicando aqui</a></p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="item animate" data-animate="fadeInUp">
                                 <div class="portfolio-item">
                                     <div class="thumb">
@@ -387,18 +390,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--                            <div class="item animate" data-animate="fadeInUp">-->
-                            <!--                                <div class="portfolio-item">-->
-                            <!--                                    <div class="thumb">-->
-                            <!--                                        <img src="images/item-3.jpg" alt="">-->
-                            <!--                                    </div>-->
-                            <!--                                    <div class="thumb-inner animate" data-animate="fadeInUp">-->
-                            <!--                                        <h4>templatemo is the best</h4>-->
-                            <!--                                        <p>Please tell your friends about it. Templatemo is the best website to download-->
-                            <!--                                            free Bootstrap templates.</p>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
+                            <div class="item animate" data-animate="fadeInUp">
+                                <div class="portfolio-item">
+                                    <div class="thumb">
+                                        <img src="images/brotherconstrutora_logo.png" alt="">
+                                    </div>
+                                    <div class="thumb-inner animate" data-animate="fadeInUp">
+                                        <h4>Construtora Brother's</h4>
+                                        <p>Veja a incrivel Landing Page criada para o lançamento dos empreendimentos de
+                                            nosso parceiro <a
+                                                href="http://brotherconstrutora.lhinfoweb.com/">clicando aqui</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -492,7 +496,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 animate" data-animate="fadeInUp">
-                                <form id="ajax-contact" method="post" action="{{route('sendMail')}}" autocomplete="off" >
+                                <form id="ajax-contact" method="post" action="{{route('sendMail')}}" autocomplete="off">
                                     @csrf
                                     <div class="input-field">
                                         <input type="text" class="form-control" name="name" id="name" required
@@ -533,7 +537,6 @@
         </ul>
     </div>
 </div>
-
 
 
 <script src="js/jquery.js"></script>
